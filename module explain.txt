@@ -1,0 +1,26 @@
+#--------------------------
+1st filer:: filter based on length of words, 
+easy:: words ka length 1-3
+inter:: words ka length 1-5
+hard:: words ka length 1-9
+
+
+home_row = ['aa', ' ad', ' ag', ' ah', ' al', ' as', ' fa', ' ha', ' ka', ' la', ' sh', ' aah', ' aal', ' aas', ' add', ' ads', ' aff', ' aga', ' aha', ' ala', ' all', ' als', ' ash', ' ask', ' ass', ' dad', ' dag', ' dah', ' dak', ' dal', ' fad', ' fag', ' fas', ' gad', ' gag', ' gal', ' gas', ' had', ' hag', ' hah', ' haj', ' has', ' jag', ' kaf', ' kas', ' lad', ' lag', ' las', ' sad', ' sag', ' sal', ' sha', ' shh', ' ska', ' aahs', ' aals', ' adds', ' agas', ' agha', ' alas', ' alfa', ' alga', ' alls', ' asks', ' dada', ' dads', ' daff', ' dags', ' dahl', ' dahs', ' daks', ' dals', ' dash', ' dhak', ' dhal', ' fads', ' fags', ' fall', ' fash', ' flag', ' flak', ' gads', ' gaff', ' gaga', ' gags', ' gala', ' gall', ' gals', ' gash', ' glad', ' haaf', ' hadj', ' hags', ' haha', ' hahs', ' hajj', ' half', ' hall', ' hash', ' jagg', ' jags', ' kaas', ' kafs', ' kaka', ' khaf', ' lads', ' lags', ' lakh', ' lall', ' lash', ' lass', ' saga', ' sags', ' sall', ' sals', ' sash', ' sass', ' shad', ' shag', ' shah', ' skag', ' skas', ' slag', ' aghas', ' alfas', ' algal', ' algas', ' dadas', ' daffs', ' dagga', ' dahls', ' dhaks', ' dhals', ' falls', ' flags', ' flash', ' flask', ' gaffs', ' galah', ' galas', ' galls', ' glads', ' glass', ' haafs', ' hadal', ' hahas', ' halls', ' jaggs', ' kakas', ' kasha', ' khafs', ' lakhs', ' lalls', ' sagas', ' salad', ' salal', ' salsa', ' shads', ' shags', ' shahs', ' shall', ' skags', ' skald', ' slags', ' slash', ' alaska', ' daggas', ' fallal', ' flasks', ' galahs', ' halala', ' hallah', ' kashas', ' salads', ' salals', ' salsas', ' skalds', ' alaskas', ' alfalfa', ' ashfall', ' fallals', ' haggada', ' halakah', ' halakha', ' halalah', ' halalas', ' hallahs', ' alfalfas', ' ashfalls', ' haggadah', ' haggadas', ' halakahs', ' halakhas', ' halalahs', 'haggadahs']
+
+k = [i for i in home_row if len(i)<=3]
+#-------------------------
+2nd filter sets sylalbus
+how many elements in that list(k)
+
+quick: 5-7 words
+short: 7-10 words
+medium: 30-35 words
+hard: 45-50 words
+
+k = [5 elements in home_row]
+' '.join(k)
+
+
+
+
+
